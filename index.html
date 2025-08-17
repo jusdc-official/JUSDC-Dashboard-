@@ -23,6 +23,8 @@
   .cse-title { font-weight:bold; color:#2a7ae2; text-decoration:none; font-size:16px; }
   .cse-link { font-size:14px; color:#555; display:block; margin-bottom:3px; }
   .cse-snippet { font-size:14px; color:#333; }
+  .gcse-search { margin-bottom: 20px; }
+  .gcse-searchresults { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
 </style>
 </head>
 <body>
@@ -55,7 +57,9 @@
   </table>
 </div>
 
-<h2>Search Results (Blockchain / JUSDC)</h2>
+<h2>Search Blockchain/JUSDC Information</h2>
+<div class="gcse-search"></div>
+<div class="gcse-searchresults"></div>
 <div id="cseResults">Loading search results...</div>
 
 <script>
@@ -177,5 +181,7 @@ setInterval(fetchTrades, 10000);
 
 </script>
 
+<!-- Google CSE Script -->
+<script async src="https://cse.google.com/cse.js?cx=1563518069e8247fd"></script>
 </body>
 </html>
